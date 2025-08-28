@@ -1,0 +1,38 @@
+{
+    "name": "jshlin/laravel-sender",
+    "description": "SENDER.GE Integration for Laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jano Sharangia",
+            "email": "janosharangia2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shar\\Sender\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "bensampo/laravel-enum": "^6.0",
+        "illuminate/config": "^12.0",
+        "illuminate/support": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Shar\\Sender\\SenderServiceProvider"
+            ],
+            "aliases": {
+                "Sender": "Shar\\Sender\\Facades\\Sender"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
