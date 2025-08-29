@@ -1,10 +1,10 @@
 # SENDER.GE Integration for Laravel
 
-[![Packagist](https://img.shields.io/packagist/v/jshlin/laravel-sender.svg)](https://packagist.org/packages/jshlin/laravel-sender)
-[![Packagist](https://img.shields.io/packagist/dt/jshlin/laravel-sender.svg)](https://packagist.org/packages/jshlin/laravel-sender)
-[![license](https://img.shields.io/github/license/jshlin/laravel-sender.svg)](https://packagist.org/packages/jshlin/laravel-sender)
+[![Packagist](https://img.shields.io/packagist/v/jshar/laravel-sender.svg)](https://packagist.org/packages/jshar/laravel-sender)
+[![Packagist](https://img.shields.io/packagist/dt/jshar/laravel-sender.svg)](https://packagist.org/packages/jshar/laravel-sender)
+[![license](https://img.shields.io/github/license/jshar/laravel-sender.svg)](https://packagist.org/packages/jshar/laravel-sender)
 
-[![laravel-sender](https://raw.githubusercontent.com/jshlin/laravel-sender/main/assets/sender.png)](https://github.com/jshlin/laravel-sender)
+[![laravel-sender](https://raw.githubusercontent.com/jshar/laravel-sender/main/assets/sender.png)](https://github.com/jshar/laravel-sender)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -20,7 +20,7 @@
 To get started, you need to install package:
 
 ```shell script
-composer require jshlin/laravel-sender
+composer require jshar/lara-sender
 ```
 
 If your laravel version is older than 5.5, then add this to your service providers in *config/app.php*:
@@ -178,5 +178,5 @@ You can configure environment file with following variables:
 
 ## License
 
-[jshlin/laravel-sender](https://github.com/jshlin/laravel-sender) is licensed under a [MIT License](https://github.com/jshlin/laravel-sender/blob/master/LICENSE).
+[jshar/lara-sender](https://github.com/jshar/laravel-sender) is licensed under a [MIT License](https://github.com/jshar/laravel-sender/blob/master/LICENSE).
 
